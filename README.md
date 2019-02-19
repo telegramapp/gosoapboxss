@@ -97,6 +97,8 @@ Now, when the event owner looks at the list of online users using the "See Who's
 
 At this point, any normal XSS attack can be performed using the online script.
 
+\*The XSS vector disappears after the attacking event guest logs out, making this XSS semi-persistent.
+
 Credits:
 
 - My teacher, for using this site 800 million times
