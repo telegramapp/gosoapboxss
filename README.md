@@ -93,7 +93,9 @@ So my solution ended up being quite simple:
 - The svg onload uses `$.getScript` to retrieve an external script
 - The external script is retrieved via the shortened URL `snip.li/OwO`, which points to an example script that I made.
 
-At this point, there are no more restrictions, and now any XSS payload can be implemented.
+Now, when the event owner looks at the list of online users using the "See Who's Online" button, the javascript will execute.
+
+At this point, any normal XSS attack can be performed using the online script.
 
 Credits:
 
